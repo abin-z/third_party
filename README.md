@@ -6,3 +6,9 @@ fmt
 
 spdlog
 
+json
+
+inifile
+
+
+
