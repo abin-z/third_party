@@ -10,5 +10,9 @@ json
 
 inifile
 
+serialport
+
+asio
+
 
 
