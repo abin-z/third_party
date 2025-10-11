@@ -2,17 +2,19 @@
 
 C++11的项目
 
-fmt
+fmt: 格式化库
 
-spdlog
+spdlog: 日志库
 
-json
+json: json库
 
-inifile
+inifile: ini配置
 
-serialport
+serialport: 串口通讯库
 
-asio
+asio: 网络通讯tcp/udp
 
+filesystem: 文件系统
 
+simpletimer: 简单定时器
 
