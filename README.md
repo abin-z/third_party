@@ -24,6 +24,14 @@ Catch2: 简洁的单元测试框架
 
 [SQLiteCpp](https://github.com/SRombauts/SQLiteCpp): 一个轻量级的 **SQLite C++ 封装层**
 
+zeromq: 消息队列
+
+protobuf: 跨语言二进制序列化
+
+brpc: 远程调用库
+
+crow: 轻量级http服务器
+
 
 
 ### **C++17常用的库**
@@ -33,3 +41,6 @@ toml++: 现代化的配置解析库
 range-v3: 类似C++20的`std::ranges`
 
 [sqlite_orm](https://github.com/fnc12/sqlite_orm): 一个 **SQLite 的 C++ ORM 框架**
+
+
+
