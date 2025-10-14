@@ -30,13 +30,13 @@
 
 [brpc](https://github.com/apache/brpc): 远程调用库
 
-[crow](https://github.com/CrowCpp/Crow): 轻量级http服务器
+[crow](https://github.com/CrowCpp/Crow): 轻量级http服务器(全面的使用drogon)
 
 
 
 ### **C++17常用的库**
 
-[toml++](https://github.com/marzer/tomlplusplus): 现代化的配置解析库
+[toml++](https://github.com/marzer/tomlplusplus): 现代化的tmol配置解析库
 
 [range-v3](https://github.com/ericniebler/range-v3): 类似C++20的`std::ranges`
 
