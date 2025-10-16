@@ -30,7 +30,9 @@
 
 [brpc](https://github.com/apache/brpc): 远程调用库
 
-[crow](https://github.com/CrowCpp/Crow): 轻量级http服务器(全面的使用drogon)
+[crow](https://github.com/CrowCpp/Crow): 轻量级http服务器
+
+[cpp-httplib](https://github.com/yhirose/cpp-httplib): 仅头文件的http客户端(仅同步)
 
 
 
@@ -41,6 +43,8 @@
 [range-v3](https://github.com/ericniebler/range-v3): 类似C++20的`std::ranges`
 
 [sqlite_orm](https://github.com/fnc12/sqlite_orm): 一个 **SQLite 的 C++ ORM 框架**
+
+[drogon](): 功能全面的HTTP服务器和客户端
 
 
 
