@@ -8,33 +8,35 @@
 
 [nlohmann/json](https://github.com/nlohmann/json): json库
 
-[inifile](https://github.com/abin-z/IniFile): ini配置
-
-[serialport](https://github.com/abin-z/SerialPort): 串口通讯库
-
-[asio](https://github.com/chriskohlhoff/asio): 网络通讯tcp/udp
-
-[filesystem](https://github.com/gulrak/filesystem): 文件系统, C++17标准有
+[inifile](https://github.com/abin-z/IniFile): 现代的ini配置
 
 [simpletimer](https://github.com/abin-z/SimpleTimer): 简单定时器
 
-[CLI11](https://github.com/CLIUtils/CLI11): 命令行解析
+[filesystem](https://github.com/gulrak/filesystem): 文件系统, (C++17使用`std::filesystem`)
 
-[Catch2](https://github.com/catchorg/Catch2): 简洁的单元测试框架
+[serialport](https://github.com/abin-z/SerialPort): 串口通讯库
+
+[asio](https://github.com/chriskohlhoff/asio): 网络通讯 tcp/udp/serialport/timer
+
+[cpp-httplib](https://github.com/yhirose/cpp-httplib): 仅头文件的http服务端和客户端(小型/阻塞IO)
+
+[websocketpp](https://github.com/zaphoyd/websocketpp): 仅头文件的websocket的服务端和客户端(依赖asio)
+
+[CLI11](https://github.com/CLIUtils/CLI11): 命令行解析
 
 [SQLiteCpp](https://github.com/SRombauts/SQLiteCpp): 一个轻量级的 **SQLite C++ 封装层**
 
-[zeromq](https://github.com/zeromq/libzmq): 消息队列
+[cppzmq](https://github.com/zeromq/cppzmq): zeromq消息队列
 
 [protobuf](https://github.com/protocolbuffers/protobuf): 跨语言二进制序列化
 
 [brpc](https://github.com/apache/brpc): 远程调用库
 
-[cpp-httplib](https://github.com/yhirose/cpp-httplib): 仅头文件的http服务端和客户端
+[Catch2](https://github.com/catchorg/Catch2): 简洁的单元测试框架
 
 
 
-git指令:
+最常用库的`git submodule`指令:
 
 ```bash
 # fmt
@@ -58,19 +60,16 @@ git submodule add https://github.com/SRombauts/SQLiteCpp.git cpp11/SQLiteCpp
 # CLI11
 git submodule add https://github.com/CLIUtils/CLI11.git cpp11/CLI11
 
+# websocketpp
+git submodule add https://github.com/zaphoyd/websocketpp.git cpp11/websocketpp
+
 ```
 
-更新所有的git submodule指令
+更新所有的`git submodule`指令
 
 ```bash
 git submodule update --init --recursive
 ```
-
-
-
-
-
-
 
 
 

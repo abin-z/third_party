@@ -22,3 +22,6 @@
 [submodule "cpp11/cpp-httplib"]
 	path = cpp11/cpp-httplib
 	url = https://github.com/yhirose/cpp-httplib.git
+[submodule "cpp11/websocketpp"]
+	path = cpp11/websocketpp
+	url = https://github.com/zaphoyd/websocketpp.git
