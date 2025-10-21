@@ -14,7 +14,7 @@
 
 [asio](https://github.com/chriskohlhoff/asio): 网络通讯tcp/udp
 
-[filesystem](https://github.com/gulrak/filesystem): 文件系统
+[filesystem](https://github.com/gulrak/filesystem): 文件系统, C++17标准有
 
 [simpletimer](https://github.com/abin-z/SimpleTimer): 简单定时器
 
@@ -31,6 +31,46 @@
 [brpc](https://github.com/apache/brpc): 远程调用库
 
 [cpp-httplib](https://github.com/yhirose/cpp-httplib): 仅头文件的http服务端和客户端
+
+
+
+git指令:
+
+```bash
+# fmt
+git submodule add https://github.com/fmtlib/fmt.git cpp11/fmt
+
+# nlohmann/json
+git submodule add https://github.com/nlohmann/json.git cpp11/json
+
+# spdlog
+git submodule add https://github.com/gabime/spdlog.git cpp11/spdlog
+
+# asio（独立版，不依赖boost）
+git submodule add https://github.com/chriskohlhoff/asio.git cpp11/asio
+
+# filesystem（如果是C++11, 没有std::filesystem，可用 ghc 实现）
+git submodule add https://github.com/gulrak/filesystem.git cpp11/filesystem
+
+# SQLiteCpp
+git submodule add https://github.com/SRombauts/SQLiteCpp.git cpp11/SQLiteCpp
+
+# CLI11
+git submodule add https://github.com/CLIUtils/CLI11.git cpp11/CLI11
+
+```
+
+更新所有的git submodule指令
+
+```bash
+git submodule update --init --recursive
+```
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,24 @@
+[submodule "cpp11/SQLiteCpp"]
+	path = cpp11/SQLiteCpp
+	url = https://github.com/SRombauts/SQLiteCpp.git
+[submodule "cpp11/fmt"]
+	path = cpp11/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "cpp11/json"]
+	path = cpp11/json
+	url = https://github.com/nlohmann/json.git
+[submodule "cpp11/spdlog"]
+	path = cpp11/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "cpp11/asio"]
+	path = cpp11/asio
+	url = https://github.com/chriskohlhoff/asio.git
+[submodule "cpp11/filesystem"]
+	path = cpp11/filesystem
+	url = https://github.com/gulrak/filesystem.git
+[submodule "cpp11/CLI11"]
+	path = cpp11/CLI11
+	url = https://github.com/CLIUtils/CLI11.git
+[submodule "cpp11/cpp-httplib"]
+	path = cpp11/cpp-httplib
+	url = https://github.com/yhirose/cpp-httplib.git
