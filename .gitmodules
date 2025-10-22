@@ -28,3 +28,6 @@
 [submodule "cpp17/tomlplusplus"]
 	path = cpp17/tomlplusplus
 	url = https://github.com/marzer/tomlplusplus
+[submodule "cpp17/crow"]
+	path = cpp17/crow
+	url = https://github.com/CrowCpp/Crow.git
