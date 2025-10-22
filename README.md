@@ -89,9 +89,26 @@ git submodule update --init --recursive
 
 ```bash
 # tomlplusplus
-git submodule add https://github.com/marzer/tomlplusplus external/tomlplusplus
+git submodule add https://github.com/marzer/tomlplusplus cpp17/tomlplusplus
+
+# crow
+git submodule add https://github.com/CrowCpp/Crow.git cpp17/crow
 
 ```
 
 
+
+
+
+clone时说明:
+
+```bash
+git clone --recurse-submodules <your-repo-url>
+```
+
+如果忘记添加了执行:
+
+```bash
+git submodule update --init --recursive
+```
 
