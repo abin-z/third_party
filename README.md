@@ -34,6 +34,8 @@
 
 [Catch2](https://github.com/catchorg/Catch2): 简洁的单元测试框架
 
+[libhv](https://github.com/ithewei/libhv): 比libevent/libuv/asio更易用的网络库, TCP/UDP/SSL/HTTP/WebSocket/MQTT client/server.
+
 
 
 最常用库的`git submodule`指令:
