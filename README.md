@@ -36,6 +36,8 @@
 
 [libhv](https://github.com/ithewei/libhv): 比libevent/libuv/asio更易用的网络库, TCP/UDP/SSL/HTTP/WebSocket/MQTT client/server.
 
+[concurrentqueue](https://github.com/cameron314/concurrentqueue): 工业级无锁队列
+
 
 
 最常用库的`git submodule`指令:
