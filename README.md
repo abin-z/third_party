@@ -38,6 +38,8 @@
 
 [concurrentqueue](https://github.com/cameron314/concurrentqueue): 工业级无锁队列
 
+[date](https://github.com/HowardHinnant/date): 基于C++11/14/17 `<chrono>`头文件的日期与时间库
+
 
 
 最常用库的`git submodule`指令:
